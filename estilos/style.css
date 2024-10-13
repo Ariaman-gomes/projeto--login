@@ -34,10 +34,12 @@ section#login{
     border-radius: 20px;
     box-shadow:  0px 0px 10px black;
 
-    transition: width 0.2s, height .2s;
+    transition: width .1s, height .1s;
     transition-timing-function: ease;
 }
+
 section#login > div#imagem{
+    float: left;
     display: block;
     background: #5f2c82 url(../imagens/ilustracao-da-cidade-do-anime.jpg) no-repeat;
     background-size: cover;
@@ -49,4 +51,9 @@ section#login > div#imagem{
 section#login> div#formulario{
     display: block;
     padding: 10px;
+}
+div#fomulario > h1{
+    text-align: center;
+
+    margin: 100px;
 }
