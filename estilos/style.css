@@ -1,29 +1,22 @@
 @charset "UTF-8";
 
-/*
-    Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
-*/
+
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 body, html {
     background-color: #5f2c82;
     height: 100vh;
-    width: 100vw;
-}
+    width: 100vw;}
 
 main {
     position: relative;
     height: 100vh;
-    width: 100vw;
-}
+    width: 100vw;}
 
 section#login {
     position: absolute;
@@ -39,30 +32,25 @@ section#login {
 
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
-    transition-timing-function: ease;
-}
+    transition-timing-function: ease;}
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/ilustracao-da-cidade-do-anime.jpg) no-repeat;
+    background: #5e2a81 url(../imagens/ilustracao-da-cidade-do-anime.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
-    height: 200px;
-}
+    height: 200px;}
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
-}
+    padding: 10px;}
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 
 div#formulario > p {
-    font-size: 0.8em;
-}
+    font-size: 0.8em;}
 
 form > div.campo {
     background-color: #5f2c82;
@@ -71,22 +59,19 @@ form > div.campo {
     width: 100%;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0px;
-}
+    margin: 5px 0px;}
 
-div.campo > label {
-    display: none;
-}
+div.campo> label {
+    display: none;}
 
-div.campo > i {
+div.campo> i {
     color: white;
     /*background-color: black;*/
     font-size: 1.9em;
     width: 40px;
-    padding: 5px;
-}
+    padding: 5px;}
 
-div.campo > input {
+div.campo> input {
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 45px);
@@ -94,15 +79,13 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
-}
+    transform: translateY(-10px);}
 
-div.campo > input:focus-within {
+div.campo> input:focus-within {
     background-color: white;
-    border: none;
-}
+    border: none;}
 
-form > input[type=submit] {
+form> input[type=submit] {
     display: block;
     font-size: 1em;
     width: 100%;
@@ -111,14 +94,12 @@ form > input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
-form > input[type=submit]:hover {
-    background-color: #2d6462;
-}
+form> input[type=submit]:hover {
+    background-color: #2d6462;}
 
-form > a.botao {
+form> a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
@@ -130,13 +111,10 @@ form > a.botao {
     color: #2d6462;
     border: 1px solid #49a09d;
     border-radius: 7px;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
-form > a.botao:hover {
-    background-color: #6cd3cf;
-}
+form> a.botao:hover {
+    background-color: #6cd3cf;}
 
-form > a.botao > i {
-    font-size: 0.8em;
-}
+form> a.botao > i {
+    font-size: 0.8em;}
